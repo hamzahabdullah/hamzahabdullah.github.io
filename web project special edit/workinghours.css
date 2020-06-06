@@ -1,0 +1,26 @@
+body{
+	background-color:#fce1e7;
+	font-family: 'Baloo 2';
+}
+.red{
+	font-size: 20px;
+	margin-top: 50px;
+}
+.orange{
+	font-size: 20px;
+	margin-bottom: 30px;
+	margin-top: -20px;
+}
+h2{
+	border: 2px #a87272 dotted;
+	padding: 2px;
+    margin-right: 700px;
+    margin-left: 700px;
+}
+ .yellow{
+ 	text-align: center;
+ 	font-size: 23px;
+ }
+ span{
+ 	font-size: 30px;
+ }

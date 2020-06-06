@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="eng">
+<head>
+	<script type="text/javascript">
+		var x;
+		
+		x = window.prompt("Please Let Us Know Your Age:");
+		
+		if (x >= 18) {
+			window.alert("since you're 18 or older, you may apply.......")
+		}
+		else {
+			window.alert("canidates must be at least 18 years old to apply for positions at our company......");
+            window.location.replace("intro.html");
+		}
+	
+	</script>
+	<style type="text/css">
+		body {
+			zoom: 75%; 
+		}
+        .content-wrapper {
+            max-width: 960px;
+			
+        }
+		
+	</style>
+	<link rel="stylesheet" type="text/css" href="enroll.css">
+	<link href="https://fonts.googleapis.com/css?family=Baloo+2&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
+
+	<title>The Big Candy Factory-Enroll</title>
+
+</head>
+<body>
+	<h2 style="font-size: 18pt"> If you want to enroll, fill in the form below:</h2>
+	<form>
+		<div>
+			<label>First Name: <input type="text"></label>
+			<label>Last Name: <input type="text"></label>
+		</div>
+		<br>
+		<div>
+			<label> Age:  <input type="text"></label>
+			<label>Email: <input type="Email"></label>
+		</div>
+		<br>
+		<div>
+			<label>Male <input type="radio" name="gender" value="male"></label>
+			<label>Female <input type="radio" name="gender" value="female"></label>
+			<label>Other <input type="radio" name="gender" value="other"></label>
+		</div>
+		<br>
+		<div>
+			<b>If you have any of there illnesses please check the boxes below:</b>
+			<div>
+				<ul>
+					<li><label>Diabetes<input type="checkbox" name="illnesses" value="diabetes"></li>
+					<li><label>Blood pressure<input type="checkbox" name="illneses" value="bp"></label></li>
+					<li><label>Corona<input type="checkbox" name="illneses" value="corona"></label></li>
+					<li><label>Allergy<input type="checkbox" name="illneses" value="allergy"></label></li>
+				</ul>
+
+				<label>Any Other Illnesses: <input type="text" name="otherillnesses"></label>
+				<p><input class="button" type="submit" name="submitt"></p>
+
+			</div>
+
+		</div>
+		<p class="red"><b>Click <span><a href="Information.html">HERE!</a><i class="fas fa-hand-point-left"></i></span> to see some information about us!</b></p>
+		<br>
+		<br>
+		<div class="orange">
+			<a href="Intro.html">Introduction </a> <i class="fas fa-align-center"></i> &nbsp
+			<a href="Working hours.html">Working hours</a> <i class="fas fa-wrench"></i> &nbsp
+			<a href="Pictures.html">Pictures</a><i class="fas fa-images"></i> &nbsp
+			<a href="Information.html">About Us</a><i class="fas fa-question"></i> &nbsp
+			
+			<img src="htmllogo.png" align="bottom" heigth="60px" width="60px" /> <img src="csslogo.png" align="bottom" height="60pt" width="50pt" />
+		</div>
+
+	</form>
+
+
+</body>
+</html>

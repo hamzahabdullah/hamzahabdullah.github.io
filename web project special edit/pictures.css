@@ -1,0 +1,29 @@
+body{
+	background-color:#fce1e7;
+	font-family: 'Baloo 2';
+}
+
+h2 {
+	border: 2px #a87272 dotted;
+	padding: 2px;
+    margin-right: 700px;
+    margin-left: 700px;
+}
+img{
+        	border: 1px black solid;
+        	float: both;
+        	margin: 20px;
+        	
+}
+.orange{
+    margin-top: 60px;
+    font-size: 20px;
+}
+.red{
+    margin-bottom: 30px;
+    margin-top: -20px;
+    font-size: 20px;
+}
+span{
+    font-size: 30px;
+ }

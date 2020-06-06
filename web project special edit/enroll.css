@@ -1,0 +1,27 @@
+body{
+	background-color:#fce1e7;
+	font-family: 'Baloo 2';
+}
+h2 {
+	border-bottom: 2px black solid;
+	margin-right: 1450px;
+}
+form{
+	font-size: 20px;
+	font-weight: 2.0em;
+}
+span{
+ 	font-size: 30px;
+ }
+ .button{
+ 	font-size: 20px;
+ }
+ .orange{
+	margin-bottom: 30px;
+	margin-top: -30px;
+	font-size: 20px;
+}
+.red{
+	margin-top: 45px;
+	font-size: 20px;
+}
